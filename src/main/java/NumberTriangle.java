@@ -100,10 +100,10 @@ public class NumberTriangle {
             return right.retrieve(path.substring(1));
         } else {
             return -1;
-
         }
+    }
 
-        /** Read in the NumberTriangle structure from a file.
+    /** Read in the NumberTriangle structure from a file.
          *
          * You may assume that it is a valid format with a height of at least 1,
          * so there is at least one line with a number on it to start the file.
